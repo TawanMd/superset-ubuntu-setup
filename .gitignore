@@ -1,0 +1,26 @@
+# Ambiente Virtual Python
+venv/
+.venv/
+
+# Arquivos de Bytecode e Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Banco de dados SQLite (padrão do Superset ou testes)
+superset.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de configuração local/sensíveis (NÃO adicione seu superset_config.py aqui se quer versionar o *template*)
+.env
+config.local.py
+# Se você decidir NÃO versionar o superset_config.py (outra abordagem):
+# superset_config.py
+
+# Logs
+*.log
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
